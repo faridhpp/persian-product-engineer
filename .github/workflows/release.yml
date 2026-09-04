@@ -1,0 +1,14 @@
+name: Release Check
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+jobs:
+  release-check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify project structure
+        run: node tests/validate-structure.js
