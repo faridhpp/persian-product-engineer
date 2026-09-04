@@ -1,0 +1,16 @@
+{
+  "name": "persian-product-engineer",
+  "version": "1.0.0",
+  "description": "A production-grade AI agent skill for building Persian RTL web products.",
+  "language": ["fa", "en"],
+  "license": "GPL-3.0",
+  "capabilities": [
+    "frontend-engineering",
+    "ui-ux-review",
+    "rtl-development",
+    "persian-localization",
+    "design-system-guidance",
+    "code-review"
+  ],
+  "supported_agents": ["Codex", "Claude Code", "Cursor"]
+}
