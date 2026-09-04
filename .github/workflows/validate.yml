@@ -1,0 +1,22 @@
+name: Validate Skill Structure
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Check required files
+        run: |
+          test -f SKILL.md
+          test -f README.md
+          test -d rules
+          test -d skills
+          test -d prompts
+          echo "Skill structure validated"
