@@ -1,0 +1,12 @@
+{
+  "direction": "rtl",
+  "language": "fa",
+  "typography": {
+    "preferredFonts": ["Dana", "Vazirmatn"]
+  },
+  "principles": {
+    "mobileFirst": true,
+    "accessibility": true,
+    "logicalCss": true
+  }
+}
