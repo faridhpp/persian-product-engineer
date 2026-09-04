@@ -1,34 +1,45 @@
 # Persian Product Engineer
 
-An AI agent skill for creating professional Persian, RTL and production-ready web products.
+An AI agent skill for building high-quality Persian and RTL digital products.
 
-## Goals
+## What it combines
 
-This project combines:
+- Professional engineering workflows
+- Modern frontend design principles
+- UX best practices
+- Persian localization standards
 
-- Senior engineering practices
-- Modern frontend architecture
-- UI/UX quality standards
-- Persian localization requirements
+## Designed for
 
-## Covered Areas
+- Websites
+- Dashboards
+- Admin panels
+- Ecommerce platforms
+- SaaS products
+- Web applications
 
-- RTL development
-- Persian typography
-- Dana/Vazirmatn support
-- Jalali date handling
-- Iranian UX patterns
-- Responsive design
-- Accessibility
-- Frontend engineering standards
+## Persian Standards
 
-## Usage
+Includes guidance for:
 
-Copy the skill into your agent skills directory and use it alongside your preferred coding agent.
+- True RTL implementation
+- Dana and Vazirmatn typography
+- Jalali date presentation
+- Persian numbers
+- Iranian phone formats
+- Toman/Rial display
+- Persian UX patterns
 
-## Philosophy
+## Core Principles
 
-Persian interfaces should not be treated as translated English interfaces. They need their own design rules, typography, layout logic and user experience patterns.
+Persian products should not be treated as translated English interfaces. They require their own typography, layout logic, content patterns and user experience.
+
+## Roadmap
+
+- More component patterns
+- Design system guidance
+- Testing standards
+- Framework examples
 
 ## License
 
