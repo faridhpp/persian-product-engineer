@@ -4,65 +4,51 @@
 
 # English
 
-An AI Agent Skill for building high-quality Persian and RTL digital products.
+An AI Agent Skill and developer toolkit for building professional Persian RTL digital products.
 
-## What it combines
+## Audit Engine
 
-Persian Product Engineer combines:
+Run a real project audit:
 
-- Engineering discipline and clean code practices
-- Modern frontend design workflows
-- UX review principles
-- Persian RTL localization standards
+```bash
+persian-product-engineer audit ./project
+```
 
-Inspired by professional agent workflows and adapted for Persian-speaking products.
+The audit checks:
 
-## Designed for
+- RTL implementation problems
+- Persian typography (Dana / Vazirmatn)
+- Localization readiness
+- Next.js metadata and SEO basics
+- Accessibility issues
+- Responsive design risks
 
-- Websites
-- Dashboards
-- Admin panels
-- Ecommerce platforms
-- SaaS products
-- Web applications
+A Markdown report is generated:
+
+```text
+audit-report.md
+```
 
 ## Features
 
-- True RTL implementation
-- Persian typography support (Dana / Vazirmatn)
-- Jalali date presentation
+- RTL engineering standards
+- Persian UX patterns
+- Jalali date guidance
 - Persian number formatting
 - Iranian phone number patterns
-- Toman/Rial display rules
-- Persian UX patterns
-- Frontend quality reviews
+- AI agent workflows
+- Code quality auditing
 - Design system guidance
 
 ## Installation
-
-Clone the repository:
 
 ```bash
 git clone https://github.com/faridhpp/persian-product-engineer.git
 ```
 
-Copy the skill into your AI agent skills directory.
+Then install or use the skill with your AI coding workflow.
 
-Compatible with AI coding workflows such as Codex, Cursor, and Claude Code.
-
-## Usage
-
-Use this skill when building or reviewing Persian digital products.
-
-Examples:
-
-- "Audit this project using Persian Product Engineer standards"
-- "Review this UI for RTL and Persian UX issues"
-- "Build this component following the project rules"
-
-## License
-
-GPL-3.0. Modified distributed versions must keep the same license and provide source code.
+Compatible with Codex, Cursor, and Claude Code.
 
 ---
 
@@ -70,58 +56,41 @@ GPL-3.0. Modified distributed versions must keep the same license and provide so
 
 ## معرفی
 
-Persian Product Engineer یک Skill برای ایجنت‌های هوش مصنوعی است که به ساخت محصولات دیجیتال حرفه‌ای فارسی و راست‌چین کمک می‌کند.
+Persian Product Engineer یک Skill و ابزار توسعه برای ساخت محصولات دیجیتال حرفه‌ای فارسی است.
 
-این پروژه ترکیبی از:
+## Audit واقعی پروژه
 
-- استانداردهای مهندسی نرم‌افزار
-- طراحی رابط کاربری مدرن
-- اصول تجربه کاربری
-- استانداردهای فارسی و RTL
+برای بررسی پروژه اجرا کنید:
 
-است.
+```bash
+persian-product-engineer audit ./project
+```
 
-## مناسب برای
+بررسی‌ها شامل:
 
-- وب‌سایت‌ها
-- پنل‌های مدیریت
-- داشبوردها
-- فروشگاه‌ها
-- محصولات SaaS
-- اپلیکیشن‌های تحت وب
+- مشکلات RTL
+- فونت‌های فارسی Dana و Vazirmatn
+- آماده‌سازی Localization
+- بررسی SEO و Metadata در Next.js
+- Accessibility
+- Responsive Design
+
+گزارش نهایی:
+
+```text
+audit-report.md
+```
+
+ساخته می‌شود.
 
 ## امکانات
 
-- پیاده‌سازی صحیح RTL
-- پشتیبانی فونت‌های فارسی مانند Dana و Vazirmatn
-- نمایش تاریخ شمسی
-- فرمت اعداد فارسی
-- شماره موبایل ایران
-- نمایش تومان و ریال
-- الگوهای UX مناسب کاربران ایرانی
-- بررسی کیفیت UI و کد
-
-## نصب
-
-دریافت پروژه:
-
-```bash
-git clone https://github.com/faridhpp/persian-product-engineer.git
-```
-
-سپس Skill را در مسیر Skillهای ابزار هوش مصنوعی خود قرار دهید.
-
-## استفاده
-
-نمونه دستورها:
-
-- «این پروژه را طبق استاندارد Persian Product Engineer بررسی کن»
-- «مشکلات RTL و UX فارسی این صفحه را پیدا کن»
-- «این کامپوننت را طبق استاندارد پروژه بساز»
-
-## مشارکت
-
-اگر نسخه‌ای از پروژه را تغییر می‌دهید و منتشر می‌کنید، طبق GPL-3.0 باید تغییرات خود را نیز با همین مجوز منتشر کنید تا بهبودهای جامعه آزاد باقی بماند.
+- استانداردهای راست‌چین
+- UX مناسب کاربران ایرانی
+- تاریخ شمسی
+- اعداد فارسی
+- تومان و ریال
+- بررسی کیفیت کد و رابط کاربری
 
 ## مجوز
 
