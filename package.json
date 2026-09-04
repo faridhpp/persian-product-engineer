@@ -1,0 +1,9 @@
+{
+  "name": "persian-product-engineer",
+  "version": "1.0.0",
+  "description": "AI agent skill for building professional Persian RTL web products",
+  "type": "module",
+  "license": "MIT",
+  "keywords": ["ai-agent", "skills", "rtl", "persian", "frontend", "ux", "typescript"],
+  "files": ["SKILL.md", "rules", "patterns", "prompts", "templates"]
+}
