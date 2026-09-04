@@ -1,9 +1,41 @@
 {
   "name": "persian-product-engineer",
   "version": "1.0.0",
-  "description": "AI agent skill for building professional Persian RTL web products",
+  "description": "An AI agent skill framework for building professional Persian RTL digital products with engineering, UX, and localization standards.",
   "type": "module",
-  "license": "MIT",
-  "keywords": ["ai-agent", "skills", "rtl", "persian", "frontend", "ux", "typescript"],
-  "files": ["SKILL.md", "rules", "patterns", "prompts", "templates"]
+  "license": "GPL-3.0",
+  "keywords": [
+    "ai-agent",
+    "agent-skills",
+    "codex",
+    "cursor",
+    "claude-code",
+    "rtl",
+    "persian",
+    "farsi",
+    "frontend",
+    "ux",
+    "typescript",
+    "web-development"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/faridhpp/persian-product-engineer.git"
+  },
+  "homepage": "https://github.com/faridhpp/persian-product-engineer",
+  "bugs": {
+    "url": "https://github.com/faridhpp/persian-product-engineer/issues"
+  },
+  "files": [
+    "SKILL.md",
+    "rules",
+    "patterns",
+    "prompts",
+    "templates",
+    "design-system",
+    "docs",
+    "agents",
+    "skills"
+  ],
+  "author": "Farid Hossein Pour"
 }
