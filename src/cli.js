@@ -1,12 +1,22 @@
 #!/usr/bin/env node
 
-const command = process.argv[2] || 'info';
+import { audit } from './commands/audit.js';
 
-const commands = {
-  init: 'Initialize Persian Product Engineer in current project',
-  audit: 'Run project quality audit',
-  update: 'Update skill files',
-  info: 'Show skill information'
-};
+const [, , command, argument] = process.argv;
 
-console.log(commands[command] || commands.info);
+switch (command) {
+  case 'audit':
+    audit(argument || '.');
+    break;
+  case 'info':
+    console.log('Persian Product Engineer - AI audit framework for Persian RTL products');
+    break;
+  case 'init':
+    console.log('Initialize Persian Product Engineer');
+    break;
+  case 'update':
+    console.log('Update Persian Product Engineer');
+    break;
+  default:
+    console.log('Usage: persian-product-engineer <command> [path]');
+}
